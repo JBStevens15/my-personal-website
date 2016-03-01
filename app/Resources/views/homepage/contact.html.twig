@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">brycestevens.me</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="{{ path('app_home') }}"><i>Home</i></a></li>
+                  <li><a href="{{ path('app_projects') }}"><i>Projects</i></a></li>
+                  <li class="active"><a href="{{ path('app_contact') }}"><i>Contact</i></a></li>
+                  <li><a href="{{ path('app_blog') }}"><i>Blog</i></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Contact</h1>
+            <p class="lead"></p>
+            <p class="lead">
+				<a href="mailto:bryce.stevens155@gmail.com?subject=Hello!&body=Hello Bryce Stevens, " type="button" class="btn btn-default"><i class="fa fa-envelope"></i><br>Email</a>
+				<a href="https://github.com/JBStevens15" type="button" class="btn btn-default"><i class="fa fa-github"></i><br>Github</a>
+				<a href="https://twitter.com/JBStevens15" type="button" class="btn btn-default"><i class="fa fa-twitter"></i><br>Twitter</a>
+				<a href="https://www.facebook.com/JBStevens15" type="button" class="btn btn-default"><i class="fa fa-facebook"></i><br>Facebook</a>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+{% endblock %}

@@ -1,0 +1,81 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">brycestevens.me</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="{{ path('app_home') }}"><i>Home</i></a></li>
+                  <li class="active"><a href="{{ path('app_projects') }}"><i>Projects</i></a></li>
+                  <li><a href="{{ path('app_contact') }}"><i>Contact</i></a></li>
+                  <li><a href="{{ path('app_blog') }}"><i>Blog</i></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Projects</h1>
+
+            <div class="row">
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			      <img src="/bundles/app/images/workout-log-screenshot.jpg" alt="Screenshot of workout">
+			      <div class="caption">
+			        <h3>Workout Log</h3>
+			        <p>Basic workout log application built with Symfony3</p>
+			        <p><a href="#" class="btn btn-primary" role="button">Check it out!</a> <a href="#" class="btn btn-info" role="button">Github</a></p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			      <i class="fa fa-wrench"></i>
+			      <div class="caption">
+			        <h3>Coming soon</h3>
+			        <p>We'll put some happy little leaves here and there. Sometimes you learn more from your mistakes than you do from your masterpieces. Let's do it again then, what the heck. This is a happy place, little squirrels live here and play.</p>
+			        <p><a href="#" class="btn btn-primary" role="button">Check it out!</a> <a href="#" class="btn btn-info" role="button">Github</a></p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			      <i class="fa fa-wrench"></i>
+			      <div class="caption">
+			        <h3>Coming soon...</h3>
+			        <p>Let all these things just sort of happen. You have to make almighty decisions when you're the creator. Just let this happen. We just let this flow right out of our minds.</p>
+			        <p><a href="#" class="btn btn-primary" role="button">Check it out!</a> <a href="#" class="btn btn-info" role="button">Github</a></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+            
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+{% endblock %}
