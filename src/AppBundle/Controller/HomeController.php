@@ -11,9 +11,29 @@ class HomeController extends Controller
 	/**
      * @Route("/home", name="app_home")
      */
+	public function headerAction()
+	{
+		return $this->render('/homepage/header.html.twig');
+
+		return new Response($html);
+	}
+
+	/**
+     * @Route("/home", name="app_home")
+     */
 	public function homeAction()
 	{
 		return $this->render('/homepage/home.html.twig');
+
+		return new Response($html);
+	}
+
+	/**
+     * @Route("/about", name="app_about")
+     */
+	public function aboutAction()
+	{
+		return $this->render('/homepage/about.html.twig');
 
 		return new Response($html);
 	}
@@ -47,4 +67,5 @@ class HomeController extends Controller
 
 		return new Response($html);
 	}
+
 }
