@@ -1,0 +1,246 @@
+/*
+ * Globals
+ */
+ * {
+  font-family: 'Libre Baskerville', serif;
+ }
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url('/bundles/app/images/winter-cabin-background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  overflow: hidden;
+  -webkit-animation: myfirst 3s ; /* Chrome, Safari, Opera */
+          animation: myfirst 3s ;
+}
+
+  /* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+  /* Standard syntax */
+@keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  overflow-y: scroll;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+#header > div > div > div > a > img,
+body > div.site-wrapper > div > div > div.masthead.clearfix > div > div > a > img {
+  width: 5rem;
+  height: 5rem;
+  margin-top: -1em;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: black;
+  border-bottom-color: black;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: black;
+  border-bottom-color: black;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+  /* Media queries */
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+.cover-heading {
+  color: white;
+}
+
+.fa {
+  font-size: 2.5rem;
+}
+
+body > div.site-wrapper > div > div > div.inner.cover > img {
+  max-width: 35%;
+  max-height: 50%;
+  margin: 0 auto;
+}
+
+.thumbnail > i {
+  padding-top: 1rem;
+  font-size: 5rem;
+}
+
+.textbox {
+  background-color: rgba(0,0,0,.5);
+  max-height: 28rem;
+  overflow-y: scroll;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+
+#header {
+  margin: 0 auto;
+}
+
+#navigation > li {
+  color: black;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+::-moz-scrollbar {
+  display: none;
+}
+
+::-o-scrollbar {
+  display: none;
+}
+
+/* TRANSITION CSS */
