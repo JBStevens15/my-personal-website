@@ -9,11 +9,11 @@ use Symfony\Component\HttpFoundation\Response;
 class HomeController extends Controller
 {
 	/**
-     * @Route("/home", name="app_home")
+     * @Route("/", name="app_homeBlank")
      */
-	public function headerAction()
+	public function homeBlankUrlAction()
 	{
-		return $this->render('/homepage/header.html.twig');
+		return $this->render('/homepage/home.html.twig');
 
 		return new Response($html);
 	}
