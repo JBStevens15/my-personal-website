@@ -1,0 +1,3 @@
+#! /bin/bash
+
+git pull origin master && sudo chmod 777 -R /var/www/my-personal-website/var/logs && sudo chmod 777 -R /var/www/my-personal-website/var/cache
