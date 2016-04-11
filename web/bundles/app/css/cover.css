@@ -217,9 +217,9 @@ body > div.site-wrapper > div > div > div.inner.cover > img {
   background-color: rgba(0,0,0,.5);
   max-height: 28rem;
   overflow-y: scroll;
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 5rem;
+  margin-top: .25rem;
   font-size: 16px;
 }
 
