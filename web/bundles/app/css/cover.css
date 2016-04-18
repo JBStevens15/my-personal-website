@@ -23,6 +23,10 @@ a:hover {
   border-radius: 4px;
 }
 
+.btn-default:hover {
+  background-color: #ccc;
+}
+
 /*
  * Base structure
  */
