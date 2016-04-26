@@ -4,7 +4,9 @@ namespace AppBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Symfony\Component\HttpFoundation\Response;
+use AppBundle\Entity\BlogPost;
+use AppBundle\Form\Type\BlogPostType;
+use Symfony\Component\HttpFoundation\Request;
 
 class HomeController extends Controller
 {
@@ -14,8 +16,6 @@ class HomeController extends Controller
 	public function homeBlankUrlAction()
 	{
 		return $this->render('/homepage/home.html.twig');
-
-		return new Response($html);
 	}
 
 	/**
@@ -24,8 +24,6 @@ class HomeController extends Controller
 	public function homeAction()
 	{
 		return $this->render('/homepage/home.html.twig');
-
-		return new Response($html);
 	}
 
 	/**
@@ -34,8 +32,6 @@ class HomeController extends Controller
 	public function aboutAction()
 	{
 		return $this->render('/homepage/about.html.twig');
-
-		return new Response($html);
 	}
 
 	/**
@@ -44,8 +40,6 @@ class HomeController extends Controller
 	public function projectsAction()
 	{
 		return $this->render('/homepage/projects.html.twig');
-
-		return new Response($html);
 	}
 
 	/**
@@ -54,8 +48,6 @@ class HomeController extends Controller
 	public function contactAction()
 	{
 		return $this->render('/homepage/contact.html.twig');
-
-		return new Response($html);
 	}
 
 	/**
@@ -63,9 +55,48 @@ class HomeController extends Controller
      */
 	public function blogAction()
 	{
-		return $this->render('/blogpage/blog.html.twig');
+		$repository = $this->getDoctrine()
+			->getRepository('AppBundle:BlogPost');
 
-		return new Response($html);
+		$blogPosts = $repository->findAll();
+
+		return $this->render(
+			'/blogpage/blog.html.twig',
+			array(
+				'blogPosts' => $blogPosts
+			)
+		);
+	}
+
+	/**
+	 * @Route("/blogedit", name="app_blog_edit")
+	 */
+	public function blogEditAction(Request $request)
+	{
+		$blogPost = new BlogPost();
+
+		$form = $this->createForm(BlogPostType::class, $blogPost);
+
+		if ($request->getMethod() === 'POST') {
+
+			$form->handleRequest($request);
+
+			if ($form->isValid()) {
+
+				$em = $this->getDoctrine()->getManager();
+				$em->persist($blogPost);
+				$em->flush();
+
+				return $this->redirectToRoute('app_blog');
+			}
+		}
+
+		return $this->render(
+			'/blogpage/blog_edit.html.twig',
+			array(
+				'blogPostForm' => $form->createView(),
+			)
+		);
 	}
 
 }

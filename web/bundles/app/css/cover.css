@@ -92,6 +92,9 @@ body {
 /*
  * Header
  */
+.masthead {
+  transition: top 0.2s ease-in-out;
+}
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
