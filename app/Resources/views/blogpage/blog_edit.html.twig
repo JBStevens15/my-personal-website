@@ -8,4 +8,21 @@
 
 {% block body %}
     {{ form(blogPostForm) }}
+
+    {% for blogPost in blogPosts %}
+        <div class="panel panel-primary">
+            <div class="panel-heading">{{ blogPost.title }} -- {{ blogPost.date|date('F jS, Y') }} -- {{ blogPost.author }} </div>
+            <div class="panel-body">
+                {{ blogPost.postText|nl2br }}
+            </div>
+            <div class="panel-footer">
+                <a class="action_button" href="{{ path('app_blog_delete', {'id': blogPost.id}) }}">
+                    <button type="button" class="glyphicon glyphicon-trash"></button>
+                </a>
+                <a class="action_button" href="{{ path('app_blog_update', {'id': blogPost.id}) }}">
+                    <button type="button" class="glyphicon glyphicon-edit"></button>
+                </a>
+            </div>
+        </div>
+    {% endfor %}
 {% endblock %}

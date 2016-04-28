@@ -58,7 +58,7 @@ class HomeController extends Controller
 		$repository = $this->getDoctrine()
 			->getRepository('AppBundle:BlogPost');
 
-		$blogPosts = $repository->findAll();
+		$blogPosts = $repository->findAllOrderedByDate();
 
 		return $this->render(
 			'/blogpage/blog.html.twig',
@@ -87,16 +87,68 @@ class HomeController extends Controller
 				$em->persist($blogPost);
 				$em->flush();
 
-				return $this->redirectToRoute('app_blog');
+				return $this->redirectToRoute('app_blog_edit');
 			}
 		}
+
+		$blogPosts = $this->getDoctrine()->getRepository('AppBundle:BlogPost')->findAllOrderedByDate();
 
 		return $this->render(
 			'/blogpage/blog_edit.html.twig',
 			array(
 				'blogPostForm' => $form->createView(),
+				'blogPosts' => $blogPosts,
 			)
 		);
 	}
 
+	/**
+	 * @Route("/blogedit/{id}/delete", name="app_blog_delete")
+	 */
+	public function blogDeleteAction($id)
+	{
+		$repository = $this->getDoctrine()
+			->getRepository('AppBundle:BlogPost');
+
+		$em = $this->getDoctrine()->getManager();
+
+		$blogPost = $repository->find($id);
+
+		$em->remove($blogPost);
+		$em->flush();
+
+		return $this->redirectToRoute('app_blog_edit');
+	}
+
+	/**
+	 * @Route("/blogedit/{id}/edit", name="app_blog_update")
+	 */
+	public function blogUpdateAction(Request $request, $id)
+	{
+		$repository = $this->getDoctrine()
+			->getRepository('AppBundle:BlogPost');
+
+		$em = $this->getDoctrine()->getManager();
+
+		$blogPost = $repository->find($id);
+
+		$form = $this->createForm(BlogPostType::class, $blogPost);
+		$form->handleRequest($request);
+
+		if ($form->isSubmitted() && $form->isValid()) {
+
+			// perform some action
+			$em->persist($blogPost);
+			$em->flush();
+
+			return $this->redirectToRoute('app_blog_edit');
+		}
+
+		return $this->render(
+			'blogpage/blog_update.html.twig',
+			array(
+				'blogPostForm' => $form->createView(),
+			)
+		);
+	}
 }
