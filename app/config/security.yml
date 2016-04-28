@@ -2,13 +2,12 @@
 # http://symfony.com/doc/current/book/security.html
 security:
 
-    # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
     providers:
         in_memory:
             memory:
                 users:
                     admin:
-                        password: $2y$12$.8l8D1vmokyeTsARvX8vW.1ikcJzf97ZKlnnIM4ZXb3615VgHQwvy
+                        password: $2y$12$MSv9MVsjREGRPsHizNXA8uyRiIwYcYHiBWygKsCaSlp3B8Atma75.
                         roles: 'ROLE_ADMIN'
 
     encoders:
