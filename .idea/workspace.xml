@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd7e6c0-fdd1-4c9c-8b52-9d7a329e7100" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/app/css/blog.css" afterPath="$PROJECT_DIR$/web/bundles/app/css/blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig" />
     </list>
     <ignored path="my-personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blog.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blog.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state relative-caret-position="125">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -68,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bundles/app/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -135,8 +135,8 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/blogpage/blog_edit.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/blogpage/blog_update.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/app/css/blog.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig" />
       </list>
     </option>
   </component>
@@ -641,12 +641,12 @@
       <updated>1461260616716</updated>
       <workItem from="1461260617869" duration="23366000" />
       <workItem from="1461694376733" duration="2805000" />
-      <workItem from="1461792323780" duration="11238000" />
+      <workItem from="1461792323780" duration="11351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37409000" />
+    <option name="totallyTimeSpent" value="37522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="408" y="243" width="1379" height="681" extended-state="0" />
@@ -1021,18 +1021,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/app/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding />
         </state>
       </provider>
