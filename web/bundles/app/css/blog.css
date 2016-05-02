@@ -169,4 +169,14 @@ h6, .h6 {
 /*
  * Custom Styles
  */
-#blog
+#about {
+  margin-top: 15rem;
+}
+
+#projects {
+  margin-top: 20rem;
+}
+
+#home, #contact {
+  margin-top: 35rem;
+}
