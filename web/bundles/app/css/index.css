@@ -46,3 +46,7 @@ body {
 .content {
     margin-top: 7rem;
 }
+
+.btn-default {
+    color: #0DA8A1;
+}
