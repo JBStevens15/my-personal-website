@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% block title %}Official Site of Bryce Stevens{% endblock %}</title>
         {% block stylesheets %}
-            <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="{{ asset('/bundles/app/css/bootstrap.min.css') }}" />
-            <link rel="stylesheet" href="{{ asset('/bundles/app/css/index.css') }}" />
-            <link rel="stylesheet" href="{{ asset('/bundles/app/css/cover.css') }}" />
-            <link rel="stylesheet" href="{{ asset('/bundles/app/css/blog.css') }}" />
+            <link rel="stylesheet" href="{{ asset('bundles/app/css/bootstrap.min.css') }}" />
+            <link rel="stylesheet" href="{{ asset('bundles/app/css/index.css') }}" />
         {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
@@ -18,11 +16,11 @@
         {% block body %}{% endblock %}
 
         {% block javascripts %}
-            <script type="text/javascript" src="{{ asset('/bundles/app/js/jquery-2.2.0.js') }}"></script>
-            <script type="text/javascript" src="{{ asset('/bundles/app/js/jquery-ui.js') }}"></script>
-            <script type="text/javascript" src="{{ asset('/bundles/app/js/bootstrap.js') }}"></script>
-            <script type="text/javascript" src="{{ asset('/bundles/app/js/index.js') }}"></script>
-            <script type="text/javascript" src="{{ asset('/bundles/app/js/headerhide.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/app/js/jquery-2.2.0.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/app/js/jquery-ui.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/app/js/bootstrap.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/app/js/index.js') }}"></script>
+            {#<script type="text/javascript" src="{{ asset('/bundles/app/js/headerhide.js') }}"></script>#}
         {% endblock %}
     </body>
 </html>

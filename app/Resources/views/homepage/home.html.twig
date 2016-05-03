@@ -3,27 +3,18 @@
 
 {% block body %}
 
-
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
             {% include ('homepage/header.html.twig') %}
-            
-          <!-- HOME -->
-          <div id="home" class="inner cover">
-            <h2 class="cover-heading">Bryce Stevens</h2>
-            <p class="lead"><i>Junior Web Developer honing his <br>HTML, CSS, JavaScript, and PHP skills</i></p>
-            
-          </div>
-          <!-- /HOME -->
 
+    <main class="container">
+        <div class="row">
+            <div class="col-xs-12">
+              <!-- HOME -->
+                <div id="home" class="content">
+                    <h2 class="">Bryce Stevens</h2>
+                    <p class=""><i>Junior Web Developer honing his <br>HTML, CSS, JavaScript, and PHP skills</i></p>
+                </div>
+                <!-- /HOME -->
+            </div>
         </div>
-
-      </div>
-
-    </div>
-
+    </main>
 {% endblock %}

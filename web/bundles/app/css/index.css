@@ -1,167 +1,48 @@
-h1 {
-	margin: auto;
-	position: relative;
-	text-align: center;
-  	padding: 5px;
-  	max-width: 35%;
-  	color: #CCCCCC;
+body {
+    background-image: url('/bundles/app/images/cubic-background.png');
+    color: #FFFFFF;
 }
 
-table, tr, td, th {
-	background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  	background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-	padding: 1em;
-	margin: auto;
-	position: relative;
-	overflow: auto;
-	margin-bottom: 12rem;
+::-webkit-scrollbar {
+    display: none;
 }
 
-tbody {
-	border: solid 2px;
-	border-radius: 1em;
+.navbar-collapse {
+    box-shadow: 0;
+    -webkit-box-shadow: 0;
+    border: 0;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    border: 0;
 }
 
-form {
-  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  display: inline;
-  padding-bottom: 1rem;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: none;
-  border: 1px solid #999;
-  border: inset 1px solid #333;
-  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
 }
 
-form, form div { 
-	display: inline; 
-	max-width: 100%;
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
 }
 
-form {
-	border-top: solid #262626 2px;
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
 }
 
-input {
-    display: inline;
-    *display: inline;     /* for IE7*/
-    zoom:1;              /* for IE7*/
-    margin: 1rem;
-    background-color: #f3f3f3;
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+    border: 0;
 }
 
-
-#form_save {
-	width: 4em;
-	min-width: 4em;
-	right: 2%;
-	bottom: 2%;
+.navbar-brand>img {
+    max-width: 100%;
+    height: 50px;
 }
 
-#log_entry {
-	margin: 0 auto;
-	min-width: 75%;
-	margin-left: 20%;
-}
-
-#log_entry_save {
-	margin-top: 2em;
-	margin-left: 5em;
-	border: solid 1px #262626;
-}
-
-#log_entry_save:hover {
-	color: gray;
-}
-
-a {
-	color: black;
-}
-
-a:hover {
-	color: gray;
-}
-
-a:focus { 
-    outline: none; 
-}
-
-.highlight { 
-	background: -webkit-linear-gradient(bottom, #d7b154, #f9eb9d 175px);
-  	background: -moz-linear-gradient(bottom, #d7b154, #f9eb9d 175px);
-  	background: linear-gradient(bottom, #d7b154, #f9eb9d 175px);
-}
-
-.archive-button {
-	display: inline-block;
-	margin: 0 auto;
-	text-align: center;
-	max-width: 5em;
-	height: 5rem;	
-	border: solid 2px #262626;
-}
-
-.strength-button {
-	display: inline-block;
-	margin: auto;
-	text-align: center;
-	max-width: 6em;
-	height: 5rem;
-	border: solid 2px #262626;
-}
-
-.cardio-button {
-	display: inline-block;
-	margin: auto;
-	text-align: center;
-	max-width: 5em;
-	height: 5rem;
-	border: solid 2px #262626;
-}
-
-.other-button {
-	display: inline-block;
-	margin: auto;
-	text-align: center;
-	max-width: 5em;
-	height: 5rem;
-	border: solid 2px #262626;
-}
-
-.hover { 
-	background-color: #eee; 
-}
-
-.container {
-	width: 90%;
-	margin: 0 auto;
-	position: relative;
-}
-
-.button-container {
-	margin: 0 auto;
-	text-align: center;
-}
-
-.nav-glyph {
-	height: 100%;
-	width: 100%;
-}
-
-.action_button {
-	display: block;
-}
-
-.table-bordered {
-	border: solid 3px #262626;
+.content {
+    margin-top: 7rem;
 }

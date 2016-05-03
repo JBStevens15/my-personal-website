@@ -1,17 +1,18 @@
 $(document).ready(function() {
 
-    $("#navigation li a").on('click', function(e) {
+    $(".navbar-nav li a").on('click', function(e) {
         e.preventDefault();
 
         $.get($(this).attr('href')).done(function(data) {
-            var content = $('.inner.cover');
-            var newContent = $(data).find('.inner.cover');
+            var content = $('.content');
+            var newContent = $(data).find('.content');
 
             content.hide();
             newContent.hide();
 
             content.replaceWith(newContent);
-            newContent.fadeIn('slow');
+            // newContent.fadeIn('slow');
+            newContent.show("slide", { direction: "left" }, 1000);
 
         });
             

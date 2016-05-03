@@ -170,13 +170,9 @@ h6, .h6 {
  * Custom Styles
  */
 #about {
-  margin-top: 15rem;
+  margin-top: -3rem;
 }
 
 #projects {
-  margin-top: 20rem;
-}
-
-#home, #contact {
-  margin-top: 35rem;
+  margin-top: -2rem;
 }

@@ -94,6 +94,7 @@ body {
  */
 .masthead {
   transition: top 0.2s ease-in-out;
+  margin-bottom: 20rem;
 }
 .masthead-brand {
   margin-top: 10px;

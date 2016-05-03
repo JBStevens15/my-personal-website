@@ -3,15 +3,10 @@
 
 {% block body %}
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
         	{% include ('homepage/header.html.twig') %}
+        <main class="container">
 
-          <div id="blog" class="inner cover">
+          <div id="blog" class="content">
               <div class="row">
 
                   <div class="blog-main">
@@ -29,11 +24,5 @@
 
               </div><!-- /.row -->
           </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
+        </main>
 {% endblock %}
