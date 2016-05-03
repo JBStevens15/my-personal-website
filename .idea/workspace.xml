@@ -67,8 +67,8 @@
       <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/securitypage/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -723,12 +723,12 @@
       <workItem from="1461792323780" duration="11238000" />
       <workItem from="1461939167026" duration="842000" />
       <workItem from="1461941828378" duration="55000" />
-      <workItem from="1461941892732" duration="15447000" />
+      <workItem from="1461941892732" duration="15499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53753000" />
+    <option name="totallyTimeSpent" value="53805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="308" y="170" width="1505" height="681" extended-state="0" />
@@ -1140,8 +1140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/securitypage/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
