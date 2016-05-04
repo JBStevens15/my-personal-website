@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd7e6c0-fdd1-4c9c-8b52-9d7a329e7100" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/homepage/projects.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/homepage/projects.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/app/css/index.css" afterPath="$PROJECT_DIR$/web/bundles/app/css/index.css" />
     </list>
     <ignored path="my-personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/homepage/projects.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/bundles/app/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -150,8 +150,8 @@
         <option value="$PROJECT_DIR$/app/Resources/views/blogpage/blog_update.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/securitypage/login.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/homepage/header.html.twig" />
-        <option value="$PROJECT_DIR$/web/bundles/app/css/index.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/homepage/projects.html.twig" />
+        <option value="$PROJECT_DIR$/web/bundles/app/css/index.css" />
       </list>
     </option>
   </component>
@@ -705,12 +705,12 @@
       <workItem from="1461792323780" duration="11238000" />
       <workItem from="1461939167026" duration="842000" />
       <workItem from="1461941828378" duration="55000" />
-      <workItem from="1461941892732" duration="16676000" />
+      <workItem from="1461941892732" duration="16874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54982000" />
+    <option name="totallyTimeSpent" value="55180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="25" width="1379" height="681" extended-state="0" />
@@ -1102,14 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/app/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/homepage/about.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1125,6 +1117,14 @@
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/app/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

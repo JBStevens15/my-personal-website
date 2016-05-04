@@ -14,7 +14,7 @@ body {
     border: 0;
 }
 .navbar-inverse {
-    background-color: transparent;
+    background-color: #23BFB7;
     border-color: transparent;
     border: 0;
 }
@@ -47,4 +47,9 @@ body {
 
 .btn-default {
     color: #0DA8A1;
+}
+
+.navbar-nav {
+    background-color: #23BFB7;
+    border-radius: 4px;
 }
