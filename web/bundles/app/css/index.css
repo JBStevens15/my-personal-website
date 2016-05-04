@@ -1,6 +1,7 @@
 body {
     background-image: url('/bundles/app/images/cubic-background.png');
     color: #FFFFFF;
+    text-align: center;
 }
 
 ::-webkit-scrollbar {
