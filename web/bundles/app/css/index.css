@@ -1,7 +1,6 @@
 body {
     background-image: url('/bundles/app/images/cubic-background.png');
     color: #FFFFFF;
-    text-align: center;
 }
 
 ::-webkit-scrollbar {
@@ -49,6 +48,20 @@ body {
     color: #0DA8A1;
 }
 
+.blog-link-bottom {
+    font-size: 16px;
+    text-align: left;
+    padding: 5px;
+    background-color: #23BFB7;
+    background-size: auto;
+    border-radius: 4px;
+    border: 2px solid #FFFFFF;
+}
+
+.blog-post-text {
+    padding-bottom: 10px;
+}
+
 .navbar-nav {
     background-color: #23BFB7;
     border-radius: 4px;
@@ -61,4 +74,14 @@ body {
 
 .ui-effects-wrapper {
     height: 100%;
+}
+
+div.blog-link-bottom > a {
+    color: #333;
+}
+
+div.blog-link-bottom > a:hover {
+    color: #FFFFFF;
+    text-decoration: line-through;
+    font-size: 20px;
 }

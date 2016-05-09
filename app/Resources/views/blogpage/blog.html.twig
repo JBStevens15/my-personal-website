@@ -16,9 +16,9 @@
                           <h2 class="blog-post-title">{{ post.title }}</h2>
                           <p class="blog-post-meta">{{ post.date|date('F jS, Y') }} by <i>{{ post.author }}</i></p>
 
-                          <div>{{ post.postText|nl2br }}</div>
+                          <div class="blog-post-text">{{ post.postText|nl2br }}</div>
 
-                          <div><a href="{{ path('app_blog_post', {'id': post.id}) }}">View Blog Post</a></div>
+                          <div class="blog-link-bottom"><a href="{{ path('app_blog_post', {'id': post.id}) }}">View "{{ post.title }}"</a></div>
                       </div><!-- /.blog-post -->
                     {% endfor %}
 
