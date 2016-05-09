@@ -53,3 +53,7 @@ body {
     background-color: #23BFB7;
     border-radius: 4px;
 }
+
+.content {
+    font-size: 24px;
+}
