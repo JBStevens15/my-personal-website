@@ -17,6 +17,8 @@
                           <p class="blog-post-meta">{{ post.date|date('F jS, Y') }} by <i>{{ post.author }}</i></p>
 
                           <div>{{ post.postText|nl2br }}</div>
+
+                          <div><a href="{{ path('app_blog_post', {'id': post.id}) }}">View Blog Post</a></div>
                       </div><!-- /.blog-post -->
                     {% endfor %}
 
