@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+    {% include ('homepage/header.html.twig') %}
+    <main class="container">
+
+        <div id="blog" class="content">
+            <div class="row">
+
+                <div class="blog-main">
+
+                    {% for post in blogPosts %}
+                        <div class="blog-post">
+                            <h2 class="blog-post-title">{{ post.title }}</h2>
+                            <p class="blog-post-meta">{{ post.date|date('F jS, Y') }} by <i>{{ post.author }}</i></p>
+
+                            <div>{{ post.postText|nl2br }}</div>
+                        </div><!-- /.blog-post -->
+                    {% endfor %}
+
+                </div><!-- /.blog-main -->
+
+            </div><!-- /.row -->
+        </div>
+    </main>
+{% endblock %}

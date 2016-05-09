@@ -11,48 +11,48 @@ use Symfony\Component\HttpFoundation\Request;
 class HomeController extends Controller
 {
 	/**
-     * @Route("/", name="app_homeBlank")
-     */
+	 * @Route("/", name="app_homeBlank")
+	 */
 	public function homeBlankUrlAction()
 	{
 		return $this->render('/homepage/home.html.twig');
 	}
 
 	/**
-     * @Route("/home", name="app_home")
-     */
+	 * @Route("/home", name="app_home")
+	 */
 	public function homeAction()
 	{
 		return $this->render('/homepage/home.html.twig');
 	}
 
 	/**
-     * @Route("/about", name="app_about")
-     */
+	 * @Route("/about", name="app_about")
+	 */
 	public function aboutAction()
 	{
 		return $this->render('/homepage/about.html.twig');
 	}
 
 	/**
-     * @Route("/projects", name="app_projects")
-     */
+	 * @Route("/projects", name="app_projects")
+	 */
 	public function projectsAction()
 	{
 		return $this->render('/homepage/projects.html.twig');
 	}
 
 	/**
-     * @Route("/contact", name="app_contact")
-     */
+	 * @Route("/contact", name="app_contact")
+	 */
 	public function contactAction()
 	{
 		return $this->render('/homepage/contact.html.twig');
 	}
 
 	/**
-     * @Route("/blog", name="app_blog")
-     */
+	 * @Route("/blog", name="app_blog")
+	 */
 	public function blogAction()
 	{
 		$repository = $this->getDoctrine()
@@ -64,6 +64,24 @@ class HomeController extends Controller
 			'/blogpage/blog.html.twig',
 			array(
 				'blogPosts' => $blogPosts
+			)
+		);
+	}
+
+	/**
+	 * @Route("/blog/{slug}", name="app_blog_show")
+	 */
+	public function blogPostAction($slug)
+	{
+		$repository = $this->getDoctrine()
+			->getRepository('AppBundle:BlogPost');
+
+		$blogPost = $repository->findPostBySlug();
+		
+		return $this->render(
+			'/blogpage/blog_post.html.twig',
+			array(
+				'blogPost' => $blogPost
 			)
 		);
 	}

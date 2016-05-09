@@ -19,4 +19,12 @@ class BlogPostRepository extends EntityRepository
             )
             ->getResult();
     }
+
+    public function findPostBySlug()
+    {
+        return $this->getEntityManager()
+            ->createQuery(
+                'SELECT post FROM AppBundle:BlogPost '
+            )
+    }
 }
