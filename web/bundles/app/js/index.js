@@ -7,11 +7,11 @@ $(document).ready(function() {
             var content = $('.content');
             var newContent = $(data).find('.content');
 
-            content.hide("slide", { direction: "right" }, 500, function() {
+            content.stop().hide("slide", { direction: "right" }, 500, function() {
                 content.replaceWith(newContent);
-                newContent.show("slide", { direction: "left" }, 500);
+                newContent.stop().show("slide", { direction: "left" }, 500);
             });
-            newContent.hide();
+            newContent.stop().hide();
 
             // content.replaceWith(newContent);
             // newContent.fadeIn('slow');
