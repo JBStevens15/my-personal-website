@@ -7,9 +7,9 @@ $(document).ready(function() {
             var content = $('.content');
             var newContent = $(data).find('.content');
 
-            content.hide("slide", { direction: "right" }, 1000, function() {
+            content.hide("slide", { direction: "right" }, 500, function() {
                 content.replaceWith(newContent);
-                newContent.show("slide", { direction: "left" }, 1000);
+                newContent.show("slide", { direction: "left" }, 500);
             });
             newContent.hide();
 

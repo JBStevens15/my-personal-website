@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd7e6c0-fdd1-4c9c-8b52-9d7a329e7100" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/app/css/index.css" afterPath="$PROJECT_DIR$/web/bundles/app/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/app/js/index.js" afterPath="$PROJECT_DIR$/web/bundles/app/js/index.js" />
     </list>
     <ignored path="my-personal-website.iws" />
@@ -99,8 +97,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/bundles/app/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="165">
+              <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -703,12 +701,12 @@
       <workItem from="1461939167026" duration="842000" />
       <workItem from="1461941828378" duration="55000" />
       <workItem from="1461941892732" duration="17136000" />
-      <workItem from="1462805952744" duration="246000" />
+      <workItem from="1462805952744" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55688000" />
+    <option name="totallyTimeSpent" value="55857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="308" y="170" width="1505" height="681" extended-state="0" />
@@ -1092,8 +1090,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/app/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="165">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
           <folding />
         </state>
       </provider>
