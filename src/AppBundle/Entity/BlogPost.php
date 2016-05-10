@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * BlogPost
@@ -48,6 +49,12 @@ class BlogPost
      * @ORM\Column(name="post_text", type="text")
      */
     private $postText;
+
+    /**
+     * @Gedmo\Slug(fields={"title"}, updatable=false)
+     * @ORM\Column(length=128, unique=true)
+     */
+    private $slug;
 
 
     /**
@@ -154,6 +161,24 @@ class BlogPost
     public function getPostText()
     {
         return $this->postText;
+    }
+
+    /**
+     * Set slug
+     *
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+    }
+
+    /**
+     * Get slug
+     *
+     */
+    public function getSlug()
+    {
+        return $this->slug;
     }
 }
 

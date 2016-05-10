@@ -20,11 +20,11 @@ class BlogPostRepository extends EntityRepository
             ->getResult();
     }
 
-    public function findPostById($id)
+    public function findPostBySlug($slug)
     {
         return $this->getEntityManager()
             ->createQuery(
-                'SELECT post FROM AppBundle:BlogPost post WHERE post.id = :id'
-            )->setParameter('id', $id)->getResult();
+                'SELECT post FROM AppBundle:BlogPost post WHERE post.slug = :slug'
+            )->setParameter('slug', $slug)->getResult();
     }
 }

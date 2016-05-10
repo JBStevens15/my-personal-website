@@ -69,14 +69,14 @@ class HomeController extends Controller
 	}
 
 	/**
-	 * @Route("/blogpost/{id}", defaults={"id" = 1}, name="app_blog_post")
+	 * @Route("/blogpost/{slug}", name="app_blog_post")
 	 */
-	public function blogPostAction($id)
+	public function blogPostAction($slug)
 	{
 		$repository = $this->getDoctrine()
 			->getRepository('AppBundle:BlogPost');
 
-		$blogPost = $repository->findPostById($id);
+		$blogPost = $repository->findPostBySlug($slug);
 		
 		return $this->render(
 			'/blogpage/blog_post.html.twig',
