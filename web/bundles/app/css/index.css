@@ -48,6 +48,12 @@ body {
     color: #0DA8A1;
 }
 
+.btn-default:hover, .btn-default:focus {
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+}
+
 .blog-link-bottom {
     font-size: 16px;
     text-align: left;
