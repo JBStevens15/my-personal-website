@@ -81,6 +81,7 @@ body {
 .content {
     font-size: 20px;
     height: 100%;
+    padding-bottom: 10px;
 }
 
 .ui-effects-wrapper {
