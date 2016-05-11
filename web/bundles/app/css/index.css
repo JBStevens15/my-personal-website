@@ -46,6 +46,11 @@ body {
 
 .btn-default {
     color: #0DA8A1;
+    -webkit-transition: color 1s, background-color 1s;
+    -moz-transition:    color 1s, background-color 1s;
+    -ms-transition:     color 1s, background-color 1s;
+    -o-transition:      color 1s, background-color 1s;
+    transition:         color 1s, background-color 1s;
 }
 
 .btn-default:hover, .btn-default:focus {
