@@ -111,3 +111,9 @@ div.blog-link-bottom > a:hover {
 div#home, div#contact, div#about, div#projects {
     text-align: center;
 }
+
+#disqus_thread {
+    background-color: #FFF;
+    border-radius: 4px;
+    padding: 10px;
+}
