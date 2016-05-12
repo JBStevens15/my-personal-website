@@ -69,6 +69,19 @@ body {
     border-color: #FFF;
 }
 
+.btn-info {
+    background-color: #23BFB7;
+    -webkit-transition: background-color 1s;
+    -moz-transition:    background-color 1s;
+    -ms-transition:     background-color 1s;
+    -o-transition:      background-color 1s;
+    transition:         background-color 1s;
+}
+
+.btn-info:hover, .btn-info:focus {
+    background-color: #28C6BE;
+}
+
 .blog-link-bottom {
     font-size: 14px;
     text-align: right;
