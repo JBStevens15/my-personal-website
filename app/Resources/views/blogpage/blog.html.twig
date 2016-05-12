@@ -16,7 +16,7 @@
                           <h2 class="blog-post-title">{{ post.title }}</h2>
                           <p class="blog-post-meta">{{ post.date|date('F jS, Y') }} by <i>{{ post.author }}</i></p>
 
-                          <div class="blog-post-text">{{ post.postText|slice(0,250)|nl2br  }}...</div>
+                          <div class="blog-post-text">{{ post.postText|slice(0,400)|nl2br  }}...</div>
 
                           <div class="blog-link-bottom"><a href="{{ path('app_blog_post', {'slug': post.slug}) }}">View "{{ post.title }}"</a></div>
                       </div><!-- /.blog-post -->
