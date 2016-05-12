@@ -24,6 +24,16 @@ body {
 
 .navbar-inverse .navbar-nav>li>a {
     color: #FFFFFF;
+    -webkit-transition: color 1s, background-color 1s;
+    -moz-transition:    color 1s, background-color 1s;
+    -ms-transition:     color 1s, background-color 1s;
+    -o-transition:      color 1s, background-color 1s;
+    transition:         color 1s, background-color 1s;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #23BFB7;
+    background-color: #FFF;
 }
 
 .navbar-inverse .navbar-toggle {
