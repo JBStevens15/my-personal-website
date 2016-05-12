@@ -70,8 +70,8 @@ body {
 }
 
 .blog-link-bottom {
-    font-size: 16px;
-    text-align: left;
+    font-size: 14px;
+    text-align: right;
     padding: 5px;
     background-color: #23BFB7;
     background-size: auto;
@@ -100,12 +100,17 @@ body {
 
 div.blog-link-bottom > a {
     color: #333;
+    -webkit-transition: color 1s, text-decoration 1s;
+    -moz-transition:    color 1s, text-decoration 1s;
+    -ms-transition:     color 1s, text-decoration 1s;
+    -o-transition:      color 1s, text-decoration 1s;
+    transition:         color 1s, text-decoration 1s;
 }
 
 div.blog-link-bottom > a:hover {
     color: #FFFFFF;
-    text-decoration: line-through;
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 div#home, div#contact, div#about, div#projects {
