@@ -136,6 +136,6 @@ div#home, div#contact, div#about, div#projects {
     padding: 10px;
 }
 
-.home-content-name {
-
+.home-column {
+    margin-top: 15rem;
 }
