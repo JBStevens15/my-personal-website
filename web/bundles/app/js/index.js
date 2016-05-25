@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".navbar-nav li a").on('click', function(e) {
+    $(".navbar-nav li a").add(".btn-anim").on('click', function(e) {
         e.preventDefault();
 
         $.get($(this).attr('href')).done(function(data) {
