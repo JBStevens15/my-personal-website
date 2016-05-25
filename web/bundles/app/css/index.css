@@ -135,3 +135,7 @@ div#home, div#contact, div#about, div#projects {
     border-radius: 4px;
     padding: 10px;
 }
+
+#home > h1 {
+
+}
