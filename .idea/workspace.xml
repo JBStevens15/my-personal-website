@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd7e6c0-fdd1-4c9c-8b52-9d7a329e7100" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/app/css/index.css" afterPath="$PROJECT_DIR$/web/bundles/app/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/homepage/home.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/homepage/home.html.twig" />
     </list>
     <ignored path="my-personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bundles/app/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+            <state relative-caret-position="612">
+              <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/homepage/home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="255">
+              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -137,9 +137,9 @@
         <option value="$PROJECT_DIR$/web/bundles/app/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/homepage/header.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/homepage/home.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/homepage/contact.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/app/css/index.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/homepage/home.html.twig" />
       </list>
     </option>
   </component>
@@ -717,12 +717,12 @@
       <workItem from="1463420116363" duration="291000" />
       <workItem from="1464189827061" duration="1266000" />
       <workItem from="1464191670800" duration="1295000" />
-      <workItem from="1464193541066" duration="262000" />
+      <workItem from="1464193541066" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74722000" />
+    <option name="totallyTimeSpent" value="75697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -1091,10 +1091,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/homepage/home.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/bundles/app/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="612">
+          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1107,10 +1107,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/app/css/index.css">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/homepage/home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
           <folding />
         </state>
       </provider>
