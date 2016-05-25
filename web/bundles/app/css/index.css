@@ -147,3 +147,7 @@ div#home, div#contact, div#about, div#projects {
 .home-content-bio {
     font-size: 0.8em;
 }
+
+.btn-anim {
+    margin: 0.5em;
+}
