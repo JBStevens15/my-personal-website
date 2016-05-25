@@ -139,3 +139,11 @@ div#home, div#contact, div#about, div#projects {
 .home-column {
     margin-top: 15rem;
 }
+
+.home-content-name {
+    font-size: 2.3em;
+}
+
+.home-content-bio {
+    font-size: 0.8em;
+}
