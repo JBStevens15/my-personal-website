@@ -151,3 +151,7 @@ div#home, div#contact, div#about, div#projects {
 .btn-anim {
     margin: 0.5em;
 }
+
+#contact > p > a {
+    margin-top: 0.5em;
+}
