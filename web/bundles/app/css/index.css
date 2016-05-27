@@ -3,7 +3,7 @@ body {
     color: #FFFFFF;
 }
 
-a {
+a, a:hover, a:focus, a:active {
     outline: 0;
 }
 
