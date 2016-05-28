@@ -159,3 +159,11 @@ div#home, div#contact, div#about, div#projects {
 #contact > p > a {
     margin-top: 0.5em;
 }
+
+#blog-triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 25px solid red;
+    border-bottom: 10px solid transparent;
+}
