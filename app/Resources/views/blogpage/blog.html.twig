@@ -18,7 +18,7 @@
 
                           <div class="blog-post-text">{{ post.postText|slice(0,400)|nl2br  }}...</div>
 
-                          <div class="blog-link-bottom"><a href="{{ path('app_blog_post', {'slug': post.slug}) }}"><div class="blog-triangle-right">*</div>View "{{ post.title }}"</a></div>
+                          <div class="blog-link-bottom"><a href="{{ path('app_blog_post', {'slug': post.slug}) }}"><div id="blog-triangle-right"></div>View "{{ post.title }}"</a></div>
                       </div><!-- /.blog-post -->
                     {% endfor %}
 

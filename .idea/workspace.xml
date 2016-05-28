@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd7e6c0-fdd1-4c9c-8b52-9d7a329e7100" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/app/css/index.css" afterPath="$PROJECT_DIR$/web/bundles/app/css/index.css" />
     </list>
     <ignored path="my-personal-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="149" selection-start-line="20" selection-start-column="149" selection-end-line="20" selection-end-column="149" />
+              <caret line="20" column="145" selection-start-line="20" selection-start-column="145" selection-end-line="20" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -735,12 +733,12 @@
       <workItem from="1464201187219" duration="769000" />
       <workItem from="1464362277478" duration="176000" />
       <workItem from="1464370041327" duration="338000" />
-      <workItem from="1464415482504" duration="226000" />
+      <workItem from="1464415482504" duration="296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79830000" />
+    <option name="totallyTimeSpent" value="79900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="6" />
@@ -1126,7 +1124,7 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/blogpage/blog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="149" selection-start-line="20" selection-start-column="149" selection-end-line="20" selection-end-column="149" />
+          <caret line="20" column="145" selection-start-line="20" selection-start-column="145" selection-end-line="20" selection-end-column="145" />
           <folding />
         </state>
       </provider>
