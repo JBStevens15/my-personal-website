@@ -124,7 +124,23 @@ div.blog-link-bottom > a {
     transition:         color 1s, text-decoration 1s;
 }
 
-div.blog-link-bottom > a:hover {
+div.blog-link-bottom > #blog-triangle-right {
+    width: 0;
+    height: 0;
+    text-align: right;
+    border-top: 5px solid transparent;
+    border-left: 7px solid #333;
+    border-bottom: 5px solid transparent;
+    display: inline-block;
+    margin-right: .3em;
+    -webkit-transition: border-left-color 1s;
+    -moz-transition:    border-left-color 1s;
+    -ms-transition:     border-left-color 1s;
+    -o-transition:      border-left-color 1s;
+    transition:         border-left-color 1s;
+}
+
+div.blog-link-bottom:hover > a, div.blog-link-bottom:hover > #blog-triangle-right {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
@@ -159,22 +175,6 @@ div#home, div#contact, div#about, div#projects {
 
 #contact > p > a {
     margin-top: 0.5em;
-}
-
-#blog-triangle-right {
-    width: 0;
-    height: 0;
-    text-align: right;
-    border-top: 5px solid transparent;
-    border-left: 7px solid #333;
-    border-bottom: 5px solid transparent;
-    display: inline-block;
-    margin-right: .3em;
-    -webkit-transition: border-left-color 1s;
-    -moz-transition:    border-left-color 1s;
-    -ms-transition:     border-left-color 1s;
-    -o-transition:      border-left-color 1s;
-    transition:         border-left-color 1s;
 }
 
 #blog-triangle-right:hover {
