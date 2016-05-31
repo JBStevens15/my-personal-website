@@ -128,6 +128,7 @@ div.blog-link-bottom > a:hover {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
+    border-left-color: #FFFFFF;
 }
 
 div#home, div#contact, div#about, div#projects {
