@@ -138,15 +138,17 @@ div.blog-link-bottom:hover > a {
     border-bottom: 5px solid transparent;
     display: inline-block;
     margin-right: .3em;
-    -webkit-transition: border-left-color 1s, -webkit-transform 1s ease-in-out;
-    -moz-transition:    border-left-color 1s, transform 1s ease-in-out;
-    -ms-transition:     border-left-color 1s, transform 1s ease-in-out;
-    -o-transition:      border-left-color 1s, transform 1s ease-in-out;
-    transition:         border-left-color 1s, transform 1s ease-in-out;
+    -webkit-transition: border-left 1s, border-top 1s, border-bottom 1s, -webkit-transform 1s ease-in-out;
+    -moz-transition:    border-left 1s, border-top 1s, border-bottom 1s, transform 1s ease-in-out;
+    -ms-transition:     border-left 1s, border-top 1s, border-bottom 1s, transform 1s ease-in-out;
+    -o-transition:      border-left 1s, border-top 1s, border-bottom 1s, transform 1s ease-in-out;
+    transition:         border-left 1s, border-top 1s, border-bottom 1s, transform 1s ease-in-out;
 }
 
 div.blog-link-bottom:hover > a #blog-triangle-right {
-    border-left-color: #FFFFFF;
+    border-top: 7px solid transparent;
+    border-left: 10px solid #FFFFFF;
+    border-bottom: 7px solid transparent;
     -webkit-transform: translateX(-15px);
     transform: translateX(-15px);
 }
