@@ -117,14 +117,15 @@ a, a:hover, a:focus, a:active {
 
 div.blog-link-bottom > a {
     color: #333;
-    -webkit-transition: color 1s, text-decoration 1s;
-    -moz-transition:    color 1s, text-decoration 1s;
-    -ms-transition:     color 1s, text-decoration 1s;
-    -o-transition:      color 1s, text-decoration 1s;
-    transition:         color 1s, text-decoration 1s;
+    -webkit-transition: font-size 1s, color 1s, text-decoration 1s;
+    -moz-transition:    font-size 1s, color 1s, text-decoration 1s;
+    -ms-transition:     font-size 1s, color 1s, text-decoration 1s;
+    -o-transition:      font-size 1s, color 1s, text-decoration 1s;
+    transition:         font-size 1s, color 1s, text-decoration 1s;
 }
 
 div.blog-link-bottom:hover > a {
+    font-size: 16px;
     color: #FFFFFF;
     text-decoration: none;
 }
