@@ -150,8 +150,8 @@ div.blog-link-bottom:hover > a #blog-triangle-right {
     border-top: 7px solid transparent;
     border-left: 10px solid #FFFFFF;
     border-bottom: 7px solid transparent;
-    -webkit-transform: translateX(-7px);
-    transform: translateX(-7px);
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
 }
 
 div#home, div#contact, div#about, div#projects {
