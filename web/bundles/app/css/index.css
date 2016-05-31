@@ -138,11 +138,11 @@ div.blog-link-bottom:hover > a {
     border-bottom: 5px solid transparent;
     display: inline-block;
     margin-right: .3em;
-    -webkit-transition: border-left-color 1s, -webkit-transform .8s ease-in-out;
-    -moz-transition:    border-left-color 1s, transform .8s ease-in-out;
-    -ms-transition:     border-left-color 1s, transform .8s ease-in-out;
-    -o-transition:      border-left-color 1s, transform .8s ease-in-out;
-    transition:         border-left-color 1s, transform .8s ease-in-out;
+    -webkit-transition: border-left-color 1s, -webkit-transform 1s ease-in-out;
+    -moz-transition:    border-left-color 1s, transform 1s ease-in-out;
+    -ms-transition:     border-left-color 1s, transform 1s ease-in-out;
+    -o-transition:      border-left-color 1s, transform 1s ease-in-out;
+    transition:         border-left-color 1s, transform 1s ease-in-out;
 }
 
 div.blog-link-bottom:hover > a #blog-triangle-right {
