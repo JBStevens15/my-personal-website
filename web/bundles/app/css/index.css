@@ -147,8 +147,8 @@ div.blog-link-bottom:hover > a {
 
 div.blog-link-bottom:hover > a #blog-triangle-right {
     border-left-color: #FFFFFF;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
 }
 
 div#home, div#contact, div#about, div#projects {
