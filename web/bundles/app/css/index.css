@@ -140,7 +140,7 @@ div.blog-link-bottom > a {
     transition:         border-left-color 1s;
 }
 
-div.blog-link-bottom:hover > a, div.blog-link-bottom:hover > #blog-triangle-right {
+div.blog-link-bottom:hover > a #blog-triangle-right {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
